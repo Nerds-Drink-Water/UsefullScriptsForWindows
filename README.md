@@ -1,9 +1,9 @@
 # UsefullScriptsForWindows
 
 ## Overview
-Windowsで細かな設定を変更するスクリプトや、個人的に役立つスクリプトを上げていきます。
+Windowsで細かな設定を変更するスクリプトや、個人的に役立つシェルスクリプトを共有します。
 
-I will raise scripts that change detailed settings in Windows and scripts that are personally useful.
+I will share scripts that change fine settings in Windows and shell scripts that are personally useful.
 
 ## Usage
 1. クローンしたファイルをセキュリティソフトでスキャンする。
@@ -40,6 +40,8 @@ I will raise scripts that change detailed settings in Windows and scripts that a
     - "yyyy/MM/dd HH:mm:ss.fffffff K"形式の日時をクリップボートに入れるシェルスクリプト。
 - getdatesetclipshort.ps1
     - "yyyy-MM-dd_HH-mm-ss"形式の日時をクリップボートに入れるシェルスクリプト。
+- ショートカットとして登録する際の例
+    > C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File "C:\bin\getdatesetclipshort.ps1"
 
 ### git pullを拡張する
 - gitpullall.ps1
