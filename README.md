@@ -47,6 +47,10 @@ I will share scripts that change fine settings in Windows and shell scripts that
 - gitpullall.ps1
     - git pullとgit submodule updateを呼び出すシェルスクリプト。
 
+### adbを使ってAndroidの画面を録画、adb pullまで自動で行う
+- adb_record.ps1
+    - adb shell screenrecordの機能を使って録画、録画終了で自動で今のディレクトリに動画をpullするスクリプト。
+
 ## Task lists
 
 ## Author
